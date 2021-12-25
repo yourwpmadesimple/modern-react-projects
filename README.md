@@ -35,3 +35,18 @@ git init
 </body>
 </html>
 ```
+## 5. Add support for jsx
+```
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-react
+```
+
+## 6. Create babelrc file in root directory
+```
+.babelrc
+
+// contents of babelrc file
+
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"]
+}
+```
