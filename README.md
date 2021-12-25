@@ -148,10 +148,12 @@ npx webpack-dev-server --mode development
 npm install --save-dev react-hot-loader
 ```
 
-## Configure package.json script object to run server
-*modify package.json*
+## Configure package.json to run server
+*modify package.json scripts object*
 ```
-"dev": "npx webpack-dev-server --mode development",
+"scripts": {
+    "dev": "npx webpack-dev-server --mode development", <=== new property
+    "build": "npx webpack --mode development" <=== new property
 ```
 *Run command*
 ```
