@@ -142,3 +142,18 @@ module.exports = {
 ```
 npx webpack-dev-server --mode development
 ```
+
+## Install Hot Loader
+```
+npm install --save-dev react-hot-loader
+```
+
+## Configure package.json script object to run server
+*modify package.json*
+```
+"dev": "npx webpack-dev-server --mode development",
+```
+*Run command*
+```
+npm run dev
+```
