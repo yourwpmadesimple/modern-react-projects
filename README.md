@@ -10,7 +10,7 @@ npm init -y
 git init
 ```
 
-## Create .giconfig file 
+## 3. Create .giconfig file 
 ```
 [alias]
     cmp = "!f() { git add -A && git commit -m \"$@\" && git push; }; f"
