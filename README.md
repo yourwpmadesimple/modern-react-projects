@@ -17,3 +17,4 @@ const TodoList = ({ todos }) => (
 
 export default TodoList
 ```
+[<< Go Back To Branch Master](https://github.com/yourwpmadesimple/modern-react-projects) [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-2_Todos_ListItemComponent)
