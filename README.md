@@ -88,7 +88,7 @@ import App from './App'
 ReactDom.render(<App />, document.getElementById('root'))
 ```
 
-## 8. Install React
+## 8. Install React and ReactDom
 ```
 npm i react react-dom
 ```
