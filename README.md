@@ -160,4 +160,4 @@ npm install --save-dev react-hot-loader
 npm run dev
 ```
 
-[Continue to Branch Lesson-1_Todos_ListComponent >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-1_Todos_ListComponent) 
+[Continue To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-1_Todos_ListComponent) 
