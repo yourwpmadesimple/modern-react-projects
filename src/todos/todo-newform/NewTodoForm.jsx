@@ -13,6 +13,7 @@ const NewTodoForm = () => {
         onChange={(e) => setInputValue(e.target.value)}
       />
       <button className="new-todo-button">Create Todo</button>
+      
     </div>
   );
 };
