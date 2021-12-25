@@ -35,12 +35,23 @@ const TodoListItem = ({ todo }) => (
 
 export default TodoListItem;
 ```
+## NewTodoForm component
+*Beginning code for NewTodoForm.jsx*
+```
+import React from "react";
+
+const NewTodoForm = () => (
+  <div className="new-todo-form">
+    <input className="new-todo-input" type="text" />
+    <button className="new-todo-button">Create Todo</button>
+  </div>
+);
+
+export default NewTodoForm;
+```
 
 
 
 
 
-
-
-
-[<< Go Back To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-1_Todos_ListComponent) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-3_Todos_NewTodoForm)
+[<< Go Back To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-2_Todos_ListItemComponent) | [Go To Next Branch Lesson >>]()
