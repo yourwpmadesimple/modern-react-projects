@@ -1,6 +1,6 @@
 ## Todos components
 
-# todoList component
+# TodoList component
 *Beginning code for TodoList.jsx*
 ```
 import React from "react";
@@ -17,6 +17,30 @@ const TodoList = ({ todos }) => (
 
 export default TodoList
 ```
+
+## TodoListItem component
+*Beginning code for TodoListItem.jsx*
+```
+import React from "react";
+
+const TodoListItem = ({ todo }) => (
+  <div className="todo-item-container">
+    <h3>{todo.text}</h3>
+    <div className="buttons-container">
+      <button className="completed-button">Mark As Complete</button>
+      <button className="remove-button">Remove</button>
+    </div>
+  </div>
+);
+
+export default TodoListItem;
+```
+
+
+
+
+
+
 
 
 [<< Go Back To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-1_Todos_ListComponent) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-3_Todos_NewTodoForm)
