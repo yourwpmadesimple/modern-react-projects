@@ -92,3 +92,48 @@ ReactDom.render(<App />, document.getElementById('root'))
 ```
 npm i react react-dom
 ```
+
+## 9. Install webpack
+```
+npm i install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader
+```
+
+## Create and setup webpack.config.js
+* Create new file in directory called webpack.config.js
+```
+const path = require('path');
+const webpack = require('webpack');
+
+// ES5 Syntax
+module.exports = {
+    entry: './src/Index.js',
+    mode: 'development',
+    module: {
+        rules: [
+            {
+                test: /\.(js|jsx)$/,
+                exclude: /(mode_modules)/,
+                loader: 'babel-loader',
+                options: { presets: ["@babel/env"]}
+            },
+            {
+                test: /\.css$/,
+                use: ["style-loader", "css-loader"]
+            }
+        ]
+    },
+    resolve: { extenions: ['*', '.js', '.jsx'] },
+    output: {
+        path: path.resolve(__dirname, 'dist/'),
+        public: 'dist/',
+        filename: 'bundle.js'
+    },
+        devServer: {
+            contentBase: path.join(__dirname, 'public/'),
+            port: 3000,
+            publicPath: 'http://localhost:3000/dist/',
+            hotOnly: true
+        },
+        plugins: [new webpack.HotModuleReplacementPlugin()]
+};
+```
