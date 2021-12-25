@@ -50,3 +50,45 @@ npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/preset-re
     "presets": ["@babel/preset-env", "@babel/preset-react"]
 }
 ```
+## 7. Create files in src folder
+* App.js
+* App.css
+* Index.js
+
+*App.js*
+```
+import React from 'react'
+import './App.css'
+
+const App = () => (
+    <div className="App">
+        <h1>Hello, World</h1>
+    </div>
+)
+
+export default App
+```
+
+*App.css*
+```
+.App {
+    margin: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#222;
+}
+```
+
+*Index.js*
+```
+import React from 'react'
+import ReactDom from 'react-dom'
+
+import App from './App'
+
+ReactDom.render(<App />, document.getElementById('root'))
+```
+
+## 8. Install React
+```
+npm i react react-dom
+```
