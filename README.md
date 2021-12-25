@@ -98,7 +98,7 @@ npm i react react-dom
 npm i install --save-dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader
 ```
 
-## Create and setup webpack.config.js
+## 10. Create and setup webpack.config.js
 * Create new file in directory called webpack.config.js
 ```
 const path = require('path');
@@ -136,4 +136,9 @@ module.exports = {
         },
         plugins: [new webpack.HotModuleReplacementPlugin()]
 };
+```
+
+## 11. Install server to run project in browser
+```
+npx webpack-dev-server --mode development
 ```

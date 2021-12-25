@@ -19,10 +19,10 @@ module.exports = {
             }
         ]
     },
-    resolve: { extenions: ['*', '.js', '.jsx'] },
+    resolve: { extensions: ['*', '.js', '.jsx'] },
     output: {
         path: path.resolve(__dirname, 'dist/'),
-        public: 'dist/',
+        publicPath: 'dist/',
         filename: 'bundle.js'
     },
         devServer: {
