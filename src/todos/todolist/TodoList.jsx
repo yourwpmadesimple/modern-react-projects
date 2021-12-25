@@ -1,8 +1,3 @@
-## Todos components
-
-# todoList component
-*Beginning code for TodoList.jsx*
-```
 import React from "react";
 import TodoListItem from './TodoLIstItem' // This file has not yet been created
 
@@ -16,4 +11,3 @@ const TodoList = ({ todos }) => (
 ) 
 
 export default TodoList
-```
