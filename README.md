@@ -19,4 +19,4 @@ export default TodoList
 ```
 
 
-[<< Go Back To Branch Lesson-1_Todos_ListComponent](https://github.com/yourwpmadesimple/modern-react-projects) [Go To Next Branch Lesson]()
+[<< Go Back To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-1_Todos_ListComponent) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-3_Todos_NewTodoForm)
