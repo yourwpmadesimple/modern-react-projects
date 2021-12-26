@@ -44,6 +44,35 @@ import { connect } from 'react-redux'
 ## Giving Components Access To The Redux Store
 ```
 import { connect } from 'react-redux'
+import { createTodo } from "../../redux/actions";
+
+const NewTodoForm = ({ todos })
+
+const mapStateToProps = (state, onCreatePressed) => ({
+  todos: state.todos, // NewTodoForm will automatically get the the todos from the state passed to it as a todos prop
+});
+
+const mapDispatchToProps = (dispatch) => ({
+  // allows components trigger actions that redux store will respond to
+  onCreatePressed: (text) => dispatch(createTodo(text)), // creates a proper object action
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(NewTodoForm);
+
+<button
+    className="new-todo-button"
+    onClick={() => {
+        const isDuplicateText = todos.some(
+        (todo) => todo.text === inputValue
+        );
+        if (!isDuplicateText) {
+        onCreatePressed(inputValue);
+        setInputValue("");
+        }
+    }}
+    >
+    Create Todo
+</button>
 ```
 
 
