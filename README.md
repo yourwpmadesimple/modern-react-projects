@@ -13,7 +13,7 @@ import { createStore, combineReducers } from "redux";
 
 const reducers = {}; // This holds all reducers
 
-const rootReducer = combineReducers(reducers);
+const rootReducer = combineReduc ers(reducers);
 
 const configureStore = () => createStore(rootReducer);
 ```
