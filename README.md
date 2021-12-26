@@ -18,9 +18,24 @@ const rootReducer = combineReduc ers(reducers);
 const configureStore = () => createStore(rootReducer);
 ```
 
+## Create Redux Action
+*Redux action code*
+```
+export const CREATE_TODO = "CREATE_TODO";
+export const createTodo = (text) => ({
+  type: CREATE_TODO,
+  payload: { text },
+});
+
+export const REMOVE_TODO = "REMOVE_TODO";
+export const removeTodo = (text) => ({
+  type: REMOVE_TODO,
+  payload: { text },
+});
+```
 
 
 
 
 
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-5_Redux_ReduxInstall) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-7_Redux_CreatingActionsl)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-6_Redux_AddingReduxStore) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-8_Redux_CreatingReducers)
