@@ -75,6 +75,11 @@ export default connect(mapStateToProps, mapDispatchToProps)(NewTodoForm);
 </button>
 ```
 
+## Install Redux Persist
+```
+npm i redux-persist
+```
+
 
 
 
