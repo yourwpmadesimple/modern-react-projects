@@ -2,12 +2,7 @@ import React from "react";
 
 import "./TodoListItemCSS.css";
 
-const TodoListItem = ({
-  todo,
-  onRemovePressed,
-  onDisplayAlertClicked,
-  onCompletedPressed,
-}) => (
+const TodoListItem = ({ todo, onRemovePressed, onCompletedPressed }) => (
   <div className="todo-item-container">
     <h3>{todo.text}</h3>
     <div className="buttons-container">
