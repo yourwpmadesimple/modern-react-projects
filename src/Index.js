@@ -6,7 +6,7 @@ import { configureStore } from "./redux/store.jsx";
 import App from "./App.js";
 
 ReactDom.render(
-  <Provider store={configureStore}>
+  <Provider store={configureStore()}>
     <App />
   </Provider>,
   document.getElementById("root")
