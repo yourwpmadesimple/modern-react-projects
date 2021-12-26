@@ -12,3 +12,4 @@ const App = () => (
 );
 
 export default hot(module)(App);
+module.hot.accept();

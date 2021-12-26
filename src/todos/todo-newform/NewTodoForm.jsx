@@ -5,7 +5,7 @@ import { createTodo } from "../../redux/actions";
 
 import "./NewTodoFormCSS.css";
 
-const NewTodoForm = ({ todos }) => {
+const NewTodoForm = ({ todos, onCreatePressed }) => {
   const [inputValue, setInputValue] = useState("");
   return (
     <div className="new-todo-form">
