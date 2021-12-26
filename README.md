@@ -2,13 +2,13 @@
 
 ## Installing Redux
 *Command for intalling Redux*
-```
+```javascript
 npm i redux react-redux
 ```
 
 ## Redux Store
 *Beginninng code for Store*
-```
+```javascript
 import { createStore, combineReducers } from "redux";
 
 const reducers = {}; // This holds all reducers
@@ -21,7 +21,7 @@ const configureStore = () => createStore(rootReducer);
 
 ## Create Redux Action
 *Redux action code*
-```
+```javascript
 export const CREATE_TODO = "CREATE_TODO";
 export const createTodo = (text) => ({
   type: CREATE_TODO,
@@ -37,7 +37,7 @@ export const removeTodo = (text) => ({
 
 ## Create Reducer
 *code*
-```
+```javascript
 import { connect } from 'react-redux'
 ```
 
