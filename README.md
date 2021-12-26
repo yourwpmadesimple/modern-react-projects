@@ -98,4 +98,10 @@ export const configureStore = () =>
   );
 ```
 
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-93_Redux_ReduxDevTools) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-94_Redux_AddingReduxThunk)
+## Installing Thunk
+```
+npm i redux-thunk redux-devtoos-extension @babel/runtime
+```
+
+
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-93_Redux_ReduxDevTools) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/#)
