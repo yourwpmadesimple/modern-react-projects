@@ -23,4 +23,4 @@ const configureStore = () => createStore(rootReducer);
 
 
 
-[<< Go Back To Previous Branch Lesson](Fill me In later)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-5_Redux_ReduxInstall)
