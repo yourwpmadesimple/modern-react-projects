@@ -101,6 +101,10 @@ export const configureStore = () =>
 ## Installing Thunk
 ```
 npm i redux-thunk redux-devtools-extension @babel/runtime
+
+and
+
+npm i --save-dev @babel/plugin-transform-runtime
 ```
 
 
