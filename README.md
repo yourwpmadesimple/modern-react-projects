@@ -42,7 +42,7 @@ import { connect } from 'react-redux'
 ```
 
 ## Giving Components Access To The Redux Store
-```
+```javascript
 import { connect } from 'react-redux'
 import { createTodo } from "../../redux/actions";
 
