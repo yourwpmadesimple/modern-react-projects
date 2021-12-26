@@ -80,4 +80,4 @@ export default connect(mapStateToProps, mapDispatchToProps)(NewTodoForm);
 
 
 
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-7_Redux_CreatingActions) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-9_Redux_ConnectingComponentsToStore)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-9_Redux_ConnectingComponentsToStore) | [Go To Next Branch Lesson >>](#)
