@@ -35,7 +35,16 @@ export const removeTodo = (text) => ({
 });
 ```
 
+## Create Reducer
+*code*
+```
+import { connect } from 'react-redux'
+```
 
+## Giving Components Access To The Redux Store
+```
+import { connect } from 'react-redux'
+```
 
 
 
