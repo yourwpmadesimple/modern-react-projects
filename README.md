@@ -18,6 +18,13 @@ const rootReducer = combineReduc ers(reducers);
 const configureStore = () => createStore(rootReducer);
 ```
 
+## New imports to store.jsx
+```javascript
+import { persistReducer } from "redux-persist";
+import storage from "redux-persist/lib/storage";
+import autoMergeLevel2 from "redux-persist/lib/stateReconciler/autoMergeLevel2";
+```
+
 
 ## Create Redux Action
 *Redux action code*
