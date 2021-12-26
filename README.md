@@ -87,9 +87,15 @@ export default connect(mapStateToProps, mapDispatchToProps)(NewTodoForm);
 npm i redux-persist
 ```
 
+## Redux DevTools
+URL https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
+*Modify store.jsx*
+```
+export const configureStore = () =>
+  createStore(
+    persistedReducer,
+    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  );
+```
 
-
-
-
-
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-91_Redux_RunningApplication) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-93_Redux_ReduxDevTools)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-92_Redux_PersistingReduxStore) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-93_Redux_ReduxDevTools)
