@@ -11,4 +11,4 @@ npm i redux react-redux
 
 
 
-[<< Go Back To Previous Branch Lesson](Fill me In later)
+[Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-6_Redux_AddingReduxStore)
