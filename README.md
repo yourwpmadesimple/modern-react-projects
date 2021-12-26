@@ -98,4 +98,4 @@ export const configureStore = () =>
   );
 ```
 
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-92_Redux_PersistingReduxStore) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-93_Redux_ReduxDevTools)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-92_Redux_PersistingReduxStore) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-94_Redux_AddingReduxThunk)
