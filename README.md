@@ -108,4 +108,4 @@ npm i --save-dev @babel/plugin-transform-runtime
 ```
 
 
-[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-95_Redux_Creating_A_Thunk) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-96_Redux_TodosApi)
+[<< Go To Previous Branch Lesson](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-95_Redux_Creating_A_Thunk) | [Go To Next Branch Lesson >>](https://github.com/yourwpmadesimple/modern-react-projects/tree/Lesson-97_Redux_AddingAnotherReducer)
