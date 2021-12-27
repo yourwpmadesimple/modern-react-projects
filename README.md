@@ -90,7 +90,7 @@ npm i redux-persist
 ## Redux DevTools
 URL https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en
 *Modify store.jsx*
-```
+```javascript
 export const configureStore = () =>
   createStore(
     persistedReducer,
