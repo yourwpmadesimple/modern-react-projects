@@ -3,9 +3,9 @@
 // Todo Action that fires when user types into the NewForm Component
 
 export const CREATE_TODO = "CREATE_TODO";
-export const createTodo = (text) => ({
+export const createTodo = (todo) => ({
   type: CREATE_TODO,
-  payload: { text },
+  payload: { todo },
 });
 
 export const REMOVE_TODO = "REMOVE_TODO";

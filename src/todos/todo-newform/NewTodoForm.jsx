@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { connect } from "react-redux"; // returns a connected version of component from the redux store
 
-import { createTodo } from "../../redux/actions";
+import { addTodoRequest } from "../../assets/thunks";
 
 import "./NewTodoFormCSS.css";
 
@@ -40,7 +40,7 @@ const mapStateToProps = (state, onCreatePressed) => ({
 
 const mapDispatchToProps = (dispatch) => ({
   // allows components trigger actions that redux store will respond to
-  onCreatePressed: (text) => dispatch(createTodo(text)), // creates a proper object action
+  onCreatePressed: (text) => dispatch(addTodoRequest(text)), // creates a proper object action
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(NewTodoForm);
